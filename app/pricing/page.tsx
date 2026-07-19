@@ -4,7 +4,7 @@ import Button from '@/components/Button'
 import { PRICING_PLANS } from '@/constants'
 
 export const metadata = {
-  title: 'Pricing | Hilink',
+  title: 'Pricing | Travel Buddy',
   description: 'Simple plans for every kind of adventurer.',
 }
 

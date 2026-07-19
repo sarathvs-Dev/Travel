@@ -4,8 +4,8 @@ import Button from '@/components/Button'
 import { SERVICES } from '@/constants'
 
 export const metadata = {
-  title: 'Services | Hilink',
-  description: 'Everything Hilink offers to get you safely into the wild and back.',
+  title: 'Services | Travel Buddy',
+  description: 'Everything Travel Buddy offers to get you safely into the wild and back.',
 }
 
 const ServicesPage = () => {
@@ -20,7 +20,7 @@ const ServicesPage = () => {
           Our Services
         </h1>
         <p className="regular-16 mt-6 text-gray-30 max-w-[600px]">
-          Whatever your adventure needs, Hilink has a service built to support it.
+          Whatever your adventure needs, Travel Buddy has a service built to support it.
         </p>
       </div>
 

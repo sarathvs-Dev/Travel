@@ -3,8 +3,8 @@ import Button from '@/components/Button'
 import { FOOTER_CONTACT_INFO, SOCIALS } from '@/constants'
 
 export const metadata = {
-  title: 'Contact Us | Hilink',
-  description: 'Get in touch with the Hilink team.',
+  title: 'Contact Us | Travel Buddy',
+  description: 'Get in touch with the Travel Buddy team.',
 }
 
 const ContactUsPage = () => {
@@ -28,19 +28,19 @@ const ContactUsPage = () => {
           <input
             type="text"
             placeholder="Your name"
-            className="regular-16 rounded-full border border-gray-10 px-6 py-3 outline-none"
+            className="regular-16 w-full rounded-full border border-gray-10 px-6 py-3 outline-none"
           />
           <input
             type="email"
             placeholder="Your email"
-            className="regular-16 rounded-full border border-gray-10 px-6 py-3 outline-none"
+            className="regular-16 w-full rounded-full border border-gray-10 px-6 py-3 outline-none"
           />
           <textarea
             placeholder="Your message"
             rows={5}
-            className="regular-16 rounded-3xl border border-gray-10 px-6 py-3 outline-none"
+            className="regular-16 w-full rounded-3xl border border-gray-10 px-6 py-3 outline-none"
           />
-          <Button type="submit" title="Send Message" variant="btn_green" />
+          <Button type="submit" title="Send Message" variant="btn_green" full />
         </form>
 
         <div className="flex flex-col gap-8">

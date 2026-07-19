@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/how-it-works', key: 'how_hilink_work', label: 'How Hilink Works?' },
+  { href: '/how-it-works', key: 'how_travel_buddy_works', label: 'How Travel Buddy Works?' },
   { href: '/services', key: 'services', label: 'Services' },
   { href: '/pricing', key: 'pricing', label: 'Pricing' },
   { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
@@ -13,7 +13,7 @@ export const HOW_IT_WORKS_STEPS = [
     step: '01',
     title: 'Download the App',
     description:
-      'Get Hilink from the App Store or Play Store and create your free account in under a minute.',
+      'Get Travel Buddy from the App Store or Play Store and create your free account in under a minute.',
   },
   {
     step: '02',
@@ -69,17 +69,17 @@ export const PRICING_PLANS = [
     name: 'Explorer',
     price: 'Free',
     period: '',
-    description: 'For casual hikers getting started with Hilink.',
+    description: 'For casual hikers getting started with Travel Buddy.',
     features: [
       'Offline maps for 3 locations',
       'Basic trip scheduling',
       'Community trail reviews',
     ],
-    variant: 'btn_white_text',
+    variant: 'btn_outline_dark',
   },
   {
     name: 'Adventurer',
-    price: '$9',
+    price: '₹299',
     period: '/month',
     description: 'For regular climbers who explore every month.',
     features: [
@@ -92,7 +92,7 @@ export const PRICING_PLANS = [
   },
   {
     name: 'Expedition Pro',
-    price: '$19',
+    price: '₹599',
     period: '/month',
     description: 'For serious expeditions and trekking teams.',
     features: [
@@ -127,7 +127,7 @@ export const FEATURES = [
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from Travel Buddy. That way, there's no more discussion",
   },
   {
     title: 'Technology Using Augmented Reality',
@@ -150,7 +150,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Travel Buddy',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -160,15 +160,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Climbing Community', 'Hiking Trails', 'Travel Buddy Camps'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin Officer', value: '+91 98765 43210' },
+    { label: 'Email Officer', value: 'hello@travelbuddy.in' },
   ],
 };
 

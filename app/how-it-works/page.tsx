@@ -4,8 +4,8 @@ import Button from '@/components/Button'
 import { HOW_IT_WORKS_STEPS } from '@/constants'
 
 export const metadata = {
-  title: 'How Hilink Works | Hilink',
-  description: 'See how Hilink takes you from download to trail in four simple steps.',
+  title: 'How Travel Buddy Works | Travel Buddy',
+  description: 'See how Travel Buddy takes you from download to trail in four simple steps.',
 }
 
 const HowItWorksPage = () => {
@@ -17,10 +17,10 @@ const HowItWorksPage = () => {
           We are here for you
         </p>
         <h1 className="bold-40 lg:bold-64 max-w-[600px]">
-          How Hilink Works
+          How Travel Buddy Works
         </h1>
         <p className="regular-16 mt-6 text-gray-30 max-w-[600px]">
-          From download to destination, Hilink guides every step of your adventure &mdash; even when you&apos;re off the grid.
+          From download to destination, Travel Buddy guides every step of your adventure &mdash; even when you&apos;re off the grid.
         </p>
       </div>
 
@@ -39,7 +39,7 @@ const HowItWorksPage = () => {
           <Button type="button" title="Download App" variant="btn_green" />
         </Link>
         <Link href="/pricing">
-          <Button type="button" title="See Pricing" variant="btn_white_text" />
+          <Button type="button" title="See Pricing" variant="btn_outline_dark" />
         </Link>
       </div>
     </section>
